@@ -20,5 +20,7 @@
 
     "scripts": {
       "post-install-cmd": "PlatoCreative\\Installer\\Install::postInstall"
-    }
+    },
+
+	"minimum-stability": "dev"
 }
