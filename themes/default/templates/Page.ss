@@ -16,8 +16,12 @@
   <!-- REMOVE BEFORE WEBSITE GOES LIVE -->
   <meta name="robots" content="nofollow" />
   
+  <% if not SiteConfig.GoogleTagManager %>
+		$SiteConfig.GoogleAnalytics
+	<% end_if %>
 </head>
 <body class="$ClassName">
+	$SiteConfig.GoogleTagManager
   
   <header>
     <nav>
